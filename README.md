@@ -47,7 +47,7 @@ optional arguments:
 
 比如举例一个图片，文件路径是`image/test.png`
 
-![](doc/test.png)
+![](https://raw.githubusercontent.com/LiushuiXiaoxia/WaterMark/master/doc/test.png)
 
 执行命令如下
 
@@ -57,7 +57,7 @@ watermark -f image/test.png -t "流水不腐小夏" -o new -c red -s 23 -p left_
 
 则效果如下
 
-![](doc/1.png)
+![](https://raw.githubusercontent.com/LiushuiXiaoxia/WaterMark/master/doc/1.png)
 
 当然如果你有整个文件夹要处理，可以直接指定一个目录。
 
@@ -65,7 +65,7 @@ watermark -f image/test.png -t "流水不腐小夏" -o new -c red -s 23 -p left_
 watermark -f image -t "流水不腐小夏" -c black  -o new  -p left_top
 ```
 
-![](doc/2.png)
+![](https://raw.githubusercontent.com/LiushuiXiaoxia/WaterMark/master/doc/2.png)
 
 ## 其他
 
